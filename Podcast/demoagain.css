@@ -1,0 +1,39 @@
+.listing-page-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    width: 350px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .listing-page-row {
+    margin: 0 -5px;
+    margin-left: 80px;
+   
+}
+  
+  /* Clear floats after the columns */
+  .listing-page-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .listing-page-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 450px;
+    border-radius: 25px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .listing-page-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

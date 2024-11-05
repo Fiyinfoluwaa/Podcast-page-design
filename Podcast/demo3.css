@@ -1,0 +1,266 @@
+.latest-ep-row{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .latest-ep-card1 {
+    width: 500px;
+    height: 270px;
+    background-color: white;
+    /* margin: 10px; */
+    margin-top: 20px;
+    margin-left: -230px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    border: 2px solid #00cc99;
+  }
+
+  .latest-ep-card2 {
+    width: 500px;
+    height: 270px;
+    background-color: white;
+    margin: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    border: 2px solid #00cc99;
+  }
+
+  
+  .latest-ep-column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding in columns */
+.latest-ep-row{
+    margin: 0 -5px;
+    /* margin-left: 100px; */
+}
+
+/* Clear floats after the columns */
+.latest-ep-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.latest-ep-photo1{
+  width:90px;
+  border-radius: 25px;
+
+}
+
+.latest-ep-badge1{
+  background-color: #0066cc;
+  color: white;
+  font-family: monospace;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color:#0066cc;
+}
+
+.latest-ep-cardrow1{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+/* .play-podcast{
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+
+.latest-ep-cardrow2{
+  display: block;
+  padding: 10px 20px;
+  padding-bottom: 0;
+}
+
+.latest-ep-card-heading1{
+  margin-bottom: 0.25rem!important;
+  display: flex;
+  color: #717275;
+  font-family: monospace;
+
+}
+
+.clock{
+  color: white;
+  background-color: #00cc99;
+  border-radius: 25px;
+}
+
+.episode-number{
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #0066cc;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 26.64px;
+  width:26.64px ;
+  /* padding-top: 5px; */
+  line-height: 25px;
+
+}
+
+.podcast-title{
+  display: inline-block;
+  color:#00cc99;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: left;
+}
+
+.latest-ep-profile-block{
+  margin-top: 10px;
+  display: flex;
+}
+
+.latest-ep-profile-image{
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  max-width: 100%;
+}
+.latest-ep-verified-image{
+  display: inline-block; 
+  width: 20px;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+.latest-ep-profile-name{
+  color: #717275;
+  font-size: 16px;
+  /* font-weight:lighter; */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: monospace;
+
+}
+
+.latest-ep-career{
+  display: block;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.latest-ep-info{
+  margin-bottom: 0!important;
+  color: #717275;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 10px;
+  font-family: system-ui;
+  text-align: left;
+}
+
+.latest-ep-footer{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.hdfn{
+  color: #00cc99;
+  font-weight: bolder;
+
+}
+.hdfn-text{
+  color: #717275;
+  font-family: system-ui;
+
+}
+
+.hrt{
+  color: #00cc99;
+  font-weight: bolder;
+}
+
+.hrt-text{
+  color: #717275;
+  font-family: system-ui;
+}
+
+.comt{
+  color: #00cc99;
+  font-weight: bolder;
+}
+
+.comt-text{
+  color: #717275;
+  font-family: system-ui;
+}
+
+.dnld{
+  color: #00cc99;
+  font-weight: bolder;
+}
+
+.dnld-text{
+  color: #717275;
+  font-family: system-ui;
+}
+
+.latest-ep-like-save{
+  margin-left: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+.black-heart{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 30px;
+  height:15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.black-bookmark{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 30px;
+  height:15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}

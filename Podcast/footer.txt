@@ -1,0 +1,164 @@
+<footer>
+    
+    
+        <div class="container">
+            <div class="row">
+                <div class="subscription_form">
+                    <h6>Subscribe. Every weekly.</h6>
+                    <form>
+                        <input type="email" placeholder="Email Address" name="Subscribe mail">
+                    </form>
+                    <div>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+                
+                <div>
+            <h2>Contact</h2>
+            <p class="phone"><strong>Phone:<strong>
+                010-020-0340</p>
+
+            <p class="mail"><strong>Email:</strong>
+                inquiry@pod.Company
+            </p>
+        </div>
+<div>
+    <h2>Download Mobile</h2>
+    <div>
+        <div>
+            <a>
+                <img src="images/app-store.png" width="80">
+            </a>
+            <a>
+                <img src="images/play-store.png" width="80">
+            </a>
+        </div>
+    </div>
+</div>
+
+            </div>
+   
+    
+        </div>
+
+        
+        <div>
+
+            <h2>Social</h2>
+            <ul class="h2-li">
+                <li>
+                    <a href="instagram.com"><img src="images/images.jpeg" width="40" class="Sicon"></a>
+
+                </li>
+                    <a href="twitter.com"><img src="images/twitter-4-xxl.png" width="40" class="Sicon"></a>
+                <li>
+
+                </li>
+                <li>
+                    <a href="web.whatsapp.com"><img src="images/download (1).jpeg" width="40" class="Sicon"></a>
+                </li>
+            </ul>
+           
+        </div>
+
+
+
+       
+
+        <div class="footer3">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="images/pod-talk-logo.png" width="120">
+                    </li>
+                    <li>Homepage</li>
+                    <li>Browse episodes</li>
+                    <li>Help Center</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+                
+        </div>
+
+        <div class="footer3">    
+            <p>Copyright © 2036 Talk Pod</p> 
+            <p>Company</p>
+            <p>Design: <a href="templatemo.com">TemplateMo</a></p>
+        </div>
+
+
+
+
+
+
+        
+    
+ 
+    
+
+    </footer>
+
+
+
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.subscribe-form-wrap {
+    border: 1px solid var(--white-color);
+    border-radius: var(--border-radius-small);
+    width: 80%;
+    position: relative;
+    top: 12px;
+    padding: 35px;
+}
+
+
+/*subscribe-form-wrap h6 {
+    background: var(--white-color);
+    border-radius: var(--border-radius-medium);
+    color: var(--primary-color);
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    margin-bottom: -25px;
+    padding: 8px;
+}*/
+
+.subscribe-form #subscribe-email {
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
+
+.site-footer > .container {
+    position: relative;
+    top: 50px;
+    padding-top: 100px;
+}
+
+div{
+    display: block;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+
+I used padding for the inner spacing, and margin for the outer one. Quite simple, isn’t it? However, this can get more and more complex when dealing with components that have a lot of details and child elements.

@@ -1,0 +1,17 @@
+<main>
+        <section>
+            <div class="card">
+                <img src="images/podcast/27376480_7326766.jpg" alt="Image">
+                <div class="card-content">
+                  <a><h2>Vintage Show</h2></a>
+                  <img src="images/profile/woman-posing-black-dress-medium-shot.jpg" class="profile-picture">
+                  <p>Elsa
+                    <strong> Influencer</strong>
+                  </p>
+                  <p>Lorem Ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              
+        </section>
+    </main>
+   

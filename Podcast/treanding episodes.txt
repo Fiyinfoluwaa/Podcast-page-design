@@ -1,0 +1,310 @@
+	<div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="details.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="details.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+                                <div class="profile-block d-flex">
+                                    <img src="images/profile/woman-posing-black-dress-medium-shot.jpg" class="profile-block-image img-fluid" alt="">
+
+                                    <p>Elsa
+                                        <strong>Influencer</strong></p>
+                                </div>
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
+                                    <a href="#" class="bi-headphones me-1">
+                                        <span>100k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-heart me-1">
+                                        <span>2.5k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-chat me-1">
+                                        <span>924k</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="social-share d-flex flex-column ms-auto">
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-heart"></i>
+                                </a>
+
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-bookmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="details.html">
+                                    <img src="images/podcast/27670664_7369753.jpg" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="details.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <div class="profile-block d-flex">
+                                    <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg" class="profile-block-image img-fluid" alt="">
+
+                                    <p>
+                                        Taylor
+                                        <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                        <strong>Creator</strong>
+                                    </p>
+                                </div>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
+                                    <a href="#" class="bi-headphones me-1">
+                                        <span>100k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-heart me-1">
+                                        <span>2.5k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-chat me-1">
+                                        <span>924k</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="social-share d-flex flex-column ms-auto">
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-heart"></i>
+                                </a>
+
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-bookmark"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="details.html">
+                                    <img src="images/podcast/12577967_02.jpg" class="dec21 img-fluid" alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="details.html">
+                                        Daily Talk
+                                    </a>
+                                </h5>
+
+                                <div class="profile-block d-flex">
+                                    <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg" class="profile-block-image img-fluid" alt="">
+
+                                    <p>
+                                        Taylor
+                                        <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                        <strong>Creator</strong>
+                                    </p>
+                                </div>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
+                                    <a href="#" class="bi-headphones me-1">
+                                        <span>100k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-heart me-1">
+                                        <span>2.5k</span>
+                                    </a>
+
+                                    <a href="#" class="bi-chat me-1">
+                                        <span>924k</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="social-share d-flex flex-column ms-auto">
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-heart"></i>
+                                </a>
+
+                                <a href="#" class="badge ms-auto">
+                                    <i class="bi-bookmark"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+    
+
+        
+                </div>
+            </div>
+        </section>
+
+
+
+
+CSS
+
+
+* {
+    box-sizing: border-box;
+  }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+
+}
+.custom-block {
+    border: 2px solid #00cc99;
+    border-radius:  30px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    width: 250px;
+    /* transition: all 0.3s ease; */
+  }
+
+
+  .custom-block-full {
+    background-color: #f0f8ff;
+    border-color: transparent;
+  }
+
+
+  .custom-block-image-wrap {
+    position: relative;
+    display: block;
+    height: 100%;
+  }
+  
+
+  .custom-block-info {
+    display: block;
+    padding: 10px 20px;
+    padding-bottom: 0;
+  }
+
+  .custom-block-image-wrap > a {
+    display: block;
+  }
+
+  a{
+    color: #00cc99;
+    font-family: monospace;
+    text-decoration: none;
+    font-size:20px;
+    
+    
+  }
+
+
+  .custom-block-image {
+    border-radius: 25px;
+    display: block;
+    width: 230px;
+    /* height: 112px; */
+    object-fit: cover;
+  }
+
+
+  .dec21{
+    border-radius: 25px;
+    display: block;
+    width: 230px;
+    height: 223px;
+    object-fit: cover;
+
+  }
+
+  .img-fluid{
+    max-width: 100%;
+  }
+
+  .mb-0{
+    margin-bottom: 0;
+  }
+
+  .profile-block-image {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  p{
+    color: #717275;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: system-ui;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .custom-block-full .social-share {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 50px;
+  }
+
+  .ms-auto {
+    margin-left: auto;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+  .custom-block-bottom a:hover span {
+    color: var(--primary-color);
+  }
+  
+  .custom-block-bottom a span {
+    font-family: var(--title-font-family);
+    color: var(--p-color);
+    text-transform: uppercase;
+    margin-left: 3px;
+  }
+
+
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
+.verified-image {
+    display: inline-block;
+    width: 20px;
+    height: auto;
+}
